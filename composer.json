@@ -18,8 +18,21 @@
         "google"
     ],
     "minimum-stability": "stable",
+    "repositories": {
+    "oauth2-client": {
+      "type": "package",
+      "package": {
+        "name": "K3S/oauth2-client",
+        "version": "2.0",
+        "source": {
+          "url": "git@github.com:K3S/oauth2-client.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
     "require": {
-        "league/oauth2-client": "^2.0"
+        "K3S/oauth2-client": "^2.0"
     },
     "require-dev": {
         "eloquent/phony-phpunit": "^2.0",
