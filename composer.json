@@ -30,6 +30,7 @@
           "reference": "master"
         }
       }
+    }
     },
     "require": {
         "K3S/oauth2-client": "*"
