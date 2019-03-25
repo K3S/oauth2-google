@@ -23,14 +23,14 @@
       "type": "package",
       "package": {
         "name": "K3S/oauth2-client",
-        "version": "2.0",
+        "version": "3.0",
         "source": {
           "url": "git@github.com:K3S/oauth2-client.git",
           "type": "git",
           "reference": "master"
         }
       }
-    }
+    },
     "require": {
         "K3S/oauth2-client": "^2.0"
     },
